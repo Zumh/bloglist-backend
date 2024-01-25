@@ -1,0 +1,55 @@
+
+### Example
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkVkc2dlciIsImlkIjoiNjVhOTcyMWFkMDFiYWEzNGQyNjRkMjIzIiwiaWF0IjoxNzA1NjI4NzYxLCJleHAiOjE3MDU2MzIzNjF9.UgCjtcI3Nj89d8vTbdMHsEzUQVLV64SCvJD2Oreqbv4","username":"Edsger","name":"Edsger W. Dijkstra"}
+###
+
+GET http://localhost:3001/api/users
+
+###
+
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFuZHkiLCJpZCI6IjY1YjFjMGRlMzU4NDBjMmI4YzA2ZDVhNCIsImlhdCI6MTcwNjE0ODEwNCwiZXhwIjoxNzA2MTUxNzA0fQ.CJHWZ575tpgG7vus9vy9IklJG7TdjEDFKdJbpilBf88
+
+{
+  "title": "Introduction to Programminge",
+  "author": "John Smith",
+  "url": "http://example.com/intro-to-programming",
+  "likes": 120
+}
+
+###
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFuZHkiLCJpZCI6IjY1YjFjMGRlMzU4NDBjMmI4YzA2ZDVhNCIsImlhdCI6MTcwNjE0ODEwNCwiZXhwIjoxNzA2MTUxNzA0fQ.CJHWZ575tpgG7vus9vy9IklJG7TdjEDFKdJbpilBf88
+
+{
+  "title": "Data Science Essentials",
+  "author": "Jane Doe",
+  "url": "http://example.com/data-science-essentials",
+  "likes": 85
+}
+
+###
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer 
+
+{
+  "title": "Introduction to Programming",
+  "author": "John Smith",
+  "url": "http://example.com/intro-to-programming",
+  "likes": 120
+}
+
+###
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer 
+
+{
+  "title": "Data Science Essentials",
+  "author": "Jane Doe",
+  "url": "http://example.com/data-science-essentials",
+  "likes": 85
+}

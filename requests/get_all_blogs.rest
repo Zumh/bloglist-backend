@@ -1,0 +1,5 @@
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkVkc2dlciIsImlkIjoiNjVhOTcyMWFkMDFiYWEzNGQyNjRkMjIzIiwiaWF0IjoxNzA1NjgxMDg4LCJleHAiOjE3MDU2ODQ2ODh9.ANmZ4HGaE0HoWYfH8K-JVnZu6q_Ipfec43KUXizdzZ4","username":"Edsger","name":"Edsger W. Dijkstra"}
+###
+GET http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkVkc2dlciIsImlkIjoiNjVhOTcyMWFkMDFiYWEzNGQyNjRkMjIzIiwiaWF0IjoxNzA1NjgxMDg4LCJleHAiOjE3MDU2ODQ2ODh9.ANmZ4HGaE0HoWYfH8K-JVnZu6q_Ipfec43KUXizdzZ4
